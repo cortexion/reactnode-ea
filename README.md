@@ -1,6 +1,6 @@
 
 Live app:
-https://reactnode-ea.herokuapp.com/
+https://reactnode-ea.onrender.com/
 
 Tips:
 
@@ -27,4 +27,4 @@ npm run build
 git status
 git add .
 git commit -m "make it better"
-git push heroku master
+git push
