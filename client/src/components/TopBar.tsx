@@ -21,7 +21,7 @@ const TopBar = () => {
         >
             <Toolbar sx={{ flexWrap: 'wrap' }}>
                 <Typography variant="h5" color="inherit" noWrap sx={{ flexGrow: 1 }} style={{ cursor: 'pointer', color: 'orange', fontWeight: 'bold' }} onClick={() => { navigate("/"); }}>
-                    Gofore movies
+                    My Movies
                 </Typography>
                 <nav>
                     <Link
