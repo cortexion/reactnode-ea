@@ -11,8 +11,6 @@ const AllMovies = () => {
     const [filterTerm, setFilterTerm] = useState<string>("");
 
     function filterMoviesByTerm(movies, term) {
-        console.log("filterMoviesByTerm");
-        console.log(term);
         return movies.filter((movie) =>
             movie.name.toLowerCase().includes(term) || String(movie.year).toLowerCase().includes(term)
         );
